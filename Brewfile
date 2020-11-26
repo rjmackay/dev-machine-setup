@@ -30,7 +30,7 @@ cask "slack"
 cask "spotify"
 cask "tableplus"
 cask "visual-studio-code"
-cask "zoom"
+cask "zoomus"
 mas "Bear", id: 1091189122
 mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
