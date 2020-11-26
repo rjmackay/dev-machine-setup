@@ -5,6 +5,7 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 brew "gh"
 brew "git"
+brew "libpq", link: true
 brew "mas"
 brew "terraform"
 brew "zsh-git-prompt"
