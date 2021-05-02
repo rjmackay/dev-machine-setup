@@ -11,6 +11,7 @@ brew "libpq", link: true
 brew "mas"
 brew "ruby-build"
 brew "yarn"
+brew "zinit"
 brew "zlib"
 brew "zsh-git-prompt"
 brew "heroku/brew/heroku"

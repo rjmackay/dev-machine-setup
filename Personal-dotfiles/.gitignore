@@ -1,0 +1,12 @@
+.project
+.DS_Store
+.localized
+*.bak
+.svn
+.settings
+.vagrant
+*.swp
+.sass-cache
+*.pyc
+*.sublime-project
+*.sublime-workspace
