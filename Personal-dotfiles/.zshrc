@@ -17,6 +17,8 @@ source /Users/robbie/brew/opt/zinit/zinit.zsh
 zplugin ice atload'!_zsh_git_prompt_precmd_hook' lucid
 zplugin load woefe/git-prompt.zsh
 
+PROMPT='%B%80<..<%~ %b$(gitprompt)'
+
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
