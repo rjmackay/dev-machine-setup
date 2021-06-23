@@ -39,6 +39,7 @@ cask "prey"
 cask "slack"
 cask "spotify"
 cask "tableplus"
+cask "visual-studio-code"
 cask "zoom"
 mas "Bear", id: 1091189122
 mas "Evernote", id: 406056744
