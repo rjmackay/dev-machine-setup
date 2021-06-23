@@ -42,6 +42,7 @@ cask "tableplus"
 cask "visual-studio-code"
 cask "zoom"
 mas "Bear", id: 1091189122
+mas "CopyLess 2", id: 993841014
 mas "Evernote", id: 406056744
 mas "Helium", id: 1054607607
 mas "HP Smart", id: 1474276998
