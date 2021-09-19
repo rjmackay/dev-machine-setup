@@ -1,3 +1,4 @@
+tap "aws/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -9,16 +10,24 @@ brew "autoconf"
 brew "automake"
 brew "libtool"
 brew "asdf"
+brew "awscli"
+brew "circleci"
 brew "gh"
 brew "git"
+brew "jq"
 brew "libpq", link: true
+brew "libssh2"
+brew "lima"
 brew "mas"
 brew "pygments"
+brew "python@3.8"
 brew "ruby-build"
+brew "rust"
 brew "yarn"
 brew "zinit"
 brew "zlib"
 brew "zsh-git-prompt"
+brew "aws/tap/aws-sam-cli"
 brew "heroku/brew/heroku"
 cask "1password"
 cask "arq"
@@ -52,7 +61,6 @@ mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Pocket", id: 568494494
 mas "StatusClock", id: 552792489
 mas "sTunes", id: 1053383063
 mas "Tomato One", id: 907364780
