@@ -17,7 +17,6 @@ brew "git"
 brew "jq"
 brew "libpq", link: true
 brew "libssh2"
-brew "lima"
 brew "mas"
 brew "pygments"
 brew "python@3.8"
@@ -37,7 +36,6 @@ cask "brave-browser"
 cask "caffeine"
 cask "calibre"
 cask "charles"
-cask "divvy"
 cask "docker"
 cask "dropbox"
 cask "firefox"
@@ -47,6 +45,7 @@ cask "google-chrome"
 cask "gpg-suite"
 cask "imageoptim"
 cask "prey"
+cask "rectangle"
 cask "slack"
 cask "spotify"
 cask "tableplus"
@@ -54,7 +53,6 @@ cask "visual-studio-code"
 cask "zoom"
 mas "Bear", id: 1091189122
 mas "CopyLess 2", id: 993841014
-mas "Evernote", id: 406056744
 mas "Helium", id: 1054607607
 mas "HP Smart", id: 1474276998
 mas "Keynote", id: 409183694
