@@ -16,7 +16,7 @@
 	recent-feature = for-each-ref --sort=-committerdate refs/heads/feature/ --count=20
 [core]
 	excludesfile = /Users/robbie/.gitignore
-	editor = subl -nw
+	editor = code -nw
 	ignorecase = false
 	whitespace = blank-at-eol,blank-at-eof,space-before-tab
 #[filter "tabspace"]
@@ -33,3 +33,5 @@
 	tool = opendiff
 [pull]
 	ff = only
+[init]
+	defaultBranch = main
