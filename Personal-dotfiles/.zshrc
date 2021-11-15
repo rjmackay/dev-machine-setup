@@ -1,7 +1,3 @@
-export PATH="/Users/robbie/brew/bin:/Users/robbie/bin:$PATH"
-export EDITOR="subl -n -w"
-# The following lines were added by compinstall
-
 # zstyle ':completion:*' completer _expand _complete _ignored _approximate
 zstyle :compinstall filename '/Users/robbie/.zshrc'
 
@@ -13,15 +9,12 @@ if type brew &>/dev/null; then
 fi
 
 # Load zinit before compinit
-source /Users/robbie/brew/opt/zinit/zinit.zsh
+source $(brew --prefix)/opt/zinit/zinit.zsh
 zplugin ice atload'!_zsh_git_prompt_precmd_hook' lucid
 zplugin load woefe/git-prompt.zsh
 
 PROMPT='%B%80<..<%~ %b$(gitprompt)'
+PROMPT+='%(?.%(!.%F{white}❯%F{yellow}❯%F{red}.%F{green})❯%f.%F{red}❯%f) '
 
 autoload -Uz compinit
 compinit
-# End of lines added by compinstall
-
-# Setup asdf before zsh so it 
-[ -s "$(brew --prefix asdf)/asdf.sh" ] && . $(brew --prefix asdf)/asdf.sh
