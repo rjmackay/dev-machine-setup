@@ -28,6 +28,7 @@ brew "fzf"
 brew "libavif"
 brew "gh"
 brew "git"
+brew "gnupg"
 brew "graphviz"
 brew "jq"
 brew "libpq", link: true
