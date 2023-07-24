@@ -99,3 +99,20 @@ mas "Pages", id: 409201541
 mas "RegExp", id: 1546140065
 mas "Tomato One", id: 907364780
 mas "Xcode", id: 497799835
+vscode "aws-scripting-guy.cform"
+vscode "dbaeumer.vscode-eslint"
+vscode "eamodio.gitlens"
+vscode "esbenp.prettier-vscode"
+vscode "GitHub.codespaces"
+vscode "github.vscode-github-actions"
+vscode "GitHub.vscode-pull-request-github"
+vscode "Gruntfuggly.todo-tree"
+vscode "IronGeek.vscode-env"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.sublime-keybindings"
+vscode "ms-vsliveshare.vsliveshare"
+vscode "ms-vsliveshare.vsliveshare-pack"
+vscode "orsenkucher.vscode-graphql"
+vscode "redhat.vscode-yaml"
+vscode "Thinker.sort-json"
+vscode "zaaack.markdown-editor"
