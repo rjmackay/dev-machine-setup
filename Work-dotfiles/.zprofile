@@ -1,12 +1,10 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Random colour settings
-$HOME/bin/term-colours
+# Added by OrbStack: command-line tools and integration
+# This won't be added again if you remove it.
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :
 
-export pcc_prod_bucket=s3://bucketeer-70315bd3-9556-4f78-bc98-26c7a12eeac0
-export pcc_staging_bucket=s3://bucketeer-9f1ab554-715c-4703-a326-26ca50e2618e
-
-setopt APPEND_HISTORY
-setopt HIST_EXPIRE_DUPS_FIRST
-setopt HIST_IGNORE_DUPS
-export HISTSIZE=10000
-export SAVEHIST=5000
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export ASDF_NODEJS_LEGACY_FILE_DYNAMIC_STRATEGY=latest_installed
